@@ -1,0 +1,54 @@
+/* Universal Selector => biasa digunakan untuk mengubah css secara keseluruhan, diawali dengan tanda (*) */
+
+* {
+    font-family: Arial;
+}
+
+/* Type Selector => biasa digunakan untuk mengubah CSS sesuai dengan Tag pada HTML */
+
+h1 {
+    color: chocolate;
+}
+
+h2{
+    color: darkblue;
+}
+
+/* Class Selector =>merubah CSS dengan menambahkan attribut class pada tag html */
+
+li.sarapan {
+    color: darkgoldenrod;
+}
+
+/* Id Selector => mengubah melalui id pada tag HTML */
+#maksi_senin{
+    color:  green;
+}
+
+/* child selector => selektor dimana tagnya anak dari sebuah tag */
+
+p>b{
+    color: darkorange;
+}
+
+li>b {
+    color: darkolivegreen;
+}
+
+/* decendant selector => selektor yang bisa digunakan walaupun tag tsb adalah child dari sebuah tag */
+
+p b {
+    color: blue;
+}
+
+/* adjacent sibling selector => digunakan untuk mengubah css h2 sebelum p, atau tag akhir pada selector yaitu h2  */
+
+p+h2{
+    color: deeppink ;
+}
+
+/* general sibling selector => dia akan mengganti css setelah H2*/
+
+h2~p{
+    font-family: Verdana;
+}
