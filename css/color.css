@@ -1,0 +1,29 @@
+/* color */
+
+/* forground color */
+
+/* collor name */
+h1 {
+    color: cadetblue;
+}
+/* hexcode */
+h2 {
+    color: #c22;
+}
+/* rgb value */
+p {
+    color: rgb(44,44,44);
+}
+/* background-color */
+body {
+    background-color: #efefef;
+}
+h1 {
+    background-color: darkkhaki;
+}
+h2 {
+    background-color: darkgreen;
+}
+p {
+    background-color: rgb(108, 183, 218);
+}

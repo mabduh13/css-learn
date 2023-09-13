@@ -1,0 +1,33 @@
+* {
+font-family: Arial;
+text-align: justify;
+}
+
+/* aturan terakhir  */
+i {
+    color: aqua;
+}
+
+i {
+    color: blueviolet;
+}
+
+/* spesific */
+
+b {
+    color: brown; /* level 1 */
+}
+p b {
+    color: blue !important; /* level 3*/
+}
+p b {
+    color: brown; /* level 2*/
+}
+
+/* stuci kasus */
+p {
+    font-size: 100%;
+}
+p#pendahuluan{
+    font-size: 75%; /*lebih sprsifiv*/
+}
